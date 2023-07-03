@@ -1,0 +1,71 @@
+/* .zoom_in,
+.zoom_out {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: rgb(255, 226, 123);
+  padding: 15px 10px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 100%;
+  font-weight: 700;
+  cursor: pointer;
+}
+#zoom-btn {
+  display: inline-flex;
+  flex-direction: column;
+  position: fixed;
+  gap: 3px;
+  text-align: center;
+  left: 2%;
+  margin-top: 10%;
+  color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#zoom-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.zoom_in:hover,
+.zoom_out:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+} */
+.map_container {
+  position: relative;
+  background-color: rgb(250, 243, 223);
+
+  /* margin: 25px; */
+  padding-top: 0%;
+}
+.map-1 {
+  /* margin-left: 0%; */
+  position: relative;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* height: auto; */
+  /* width: 1440px; */
+  filter: invert(10%) contrast(70%);
+  /* padding-top: 0%; */
+  /* padding-right: 10%; */
+  /* padding-bottom: 100%; */
+  scale: 105%;
+}
+
+#image-map area:hover {
+  background-color: aqua;
+}
+
+.maparea:hover {
+  background-color: aqua;
+}
+
+#s1 {
+  background-color: aqua;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+}

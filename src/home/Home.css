@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: "Cinzel", serif;
+  position: absolute;
+  background-color: rgb(255, 253, 242);
+}
+.header {
+  position: fixed;
+  background-color: transparent;
+  background-color: rgb(250, 243, 223);
+
+  /* background-image: url("../assets/middleEarthMaps.jpg"); */
+  width: 100%;
+}
+
+#header-title {
+  background: rgba(0, 0, 0, 0.9);
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border-style: outset;
+  border-top-color: rgb(255, 215, 123);
+  position: relative;
+  color: rgb(255, 215, 123);
+  padding: 5px;
+  /* padding: auto; */
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  border-left: none;
+  border-bottom: none;
+}
+
+#topics {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: right;
+  gap: 6px;
+  position: fixed;
+  list-style-type: none;
+  top: 230px;
+  right: 0%;
+  text-decoration: none;
+  text-align: right;
+  font-size: 16px;
+}
+
+.topics__info,
+.topics__timelines,
+.topics__places,
+.topics__events,
+.topics__paths,
+.topics__characters {
+  font-family: "Cinzel", serif;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 120%;
+  font-weight: 300;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-color: rgb(255, 215, 123);
+  border-right: none;
+  transition: padding 0.3s ease-in-out;
+}
+
+.topics__info {
+  padding: 8px 50px;
+}
+.topics__timelines {
+  padding: 8px 25px;
+}
+.topics__events {
+  padding: 8px 39px;
+}
+.topics__paths {
+  padding: 8px 46px;
+}
+.topics__characters {
+  padding: 8px 12px;
+}
+.topics__places {
+  padding: 8px 39px;
+}
+
+.topics__info:hover,
+.topics__timelines:hover,
+.topics__places:hover,
+.topics__paths:hover,
+.topics__characters:hover,
+.topics__events:hover {
+  background: rgba(0, 0, 0, 0.9);
+  color: rgb(255, 226, 123);
+  border-color: rgb(255, 226, 123, 0.9);
+  border-right-color: transparent;
+  /* border-style: inset; */
+  border-width: 2px;
+  padding: 8px 60px;
+  cursor: pointer;
+  transition: padding 0.3s ease-in-out;
+}
+
+#active {
+  /* background: hsla(0, 0%, 0%, 0.9); */
+  position: absolute;
+  color: rgb(255, 226, 123);
+  border-color: #ffe27be6;
+  border-right-color: transparent;
+  padding: 10px 80px;
+  border-width: 2px;
+}
+
+/* .lotr-btn {
+  color: white;
+  position: absolute;
+  right: 2%;
+  top: 15%;
+  width: 15%;
+  padding: 10px;
+  border-color: transparent;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  transition: width 0.4s ease-in-out;
+  cursor: pointer;
+} */
+
+/* .hobbit-btn {
+  color: white;
+  position: absolute;
+  right: 2%;
+  top: 22%;
+  width: 15%;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+  border-color: transparent;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  transition: width 0.4s ease-in-out;
+} */
+
+/* .lotr-btn:hover {
+  color: white;
+  position: absolute;
+  padding: 12px;
+  width: 20%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+  background: rgb(0, 0, 0);
+  background: hsla(0, 0%, 0%, 0.8);
+  box-shadow: inset;
+  cursor: pointer;
+} */
+
+/* .hobbit-btn:hover {
+  color: white;
+  position: absolute;
+  width: 20%;
+  padding: 12px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  border-bottom-color: yellow;
+  border-bottom-width: 5px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+} */

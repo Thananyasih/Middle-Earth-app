@@ -1,0 +1,34 @@
+.search_input {
+  /* font-family: "Cinzel", serif; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  left: 3%;
+  position: fixed;
+  top: 100px;
+  width: 200px;
+  height: 30px;
+  box-sizing: border-box;
+  outline: 2px solid rgba(36, 36, 36);
+  outline-offset: 1px;
+  border: 2px solid white;
+  background-color: rgba(194, 172, 144, 0.7);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 100%;
+  font-style: italic;
+  font-weight: 500;
+  transition: width 0.4s ease-in-out;
+}
+
+.form_container {
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.search_input:focus {
+  /* outline: none; */
+  outline: 2px solid rgba(36, 36, 36);
+  border: 2px solid white;
+  background-color: rgba(235, 210, 121, 0.9);
+  font-weight: 500;
+  width: 17%;
+}

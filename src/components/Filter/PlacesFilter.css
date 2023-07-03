@@ -1,0 +1,84 @@
+.places-form {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  background: rgba(27, 27, 27, 0.9);
+  text-align: left;
+  padding: 15px 25px;
+  right: 0;
+  left: 5%;
+  /* border-bottom-right-radius: 70%; */
+  transition: padding 0.3s ease-in-out;
+}
+
+.places-form h4 {
+  font-family: "Cinzel", serif;
+  color: rgb(255, 226, 123);
+  padding-left: 1px;
+  font-weight: 500;
+  margin-top: 5px;
+  transition: padding 0.3s ease-in-out;
+}
+
+.places-control {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  display: grid;
+  grid-template-columns: 1% auto;
+  gap: 30px;
+  color: whitesmoke;
+  margin: 6px;
+}
+
+#type_filter {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  /* color: rgb(255, 226, 123); */
+}
+
+/* input[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  background-color: #fff;
+  margin-top: 6px;
+  font: inherit;
+  color: currentColor;
+  width: 1em;
+  height: 1em;
+  border: 2% solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+} */
+
+/* input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  background-color: CanvasText;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+} */
+
+/* input[type="checkbox"]:checked::before {
+  transform: scale(1);
+  /* background-color: transparent; 
+} */
+
+/* .places-control + .places-control {
+  margin-top: 1em;
+} */
+
+input[type="checkbox"]:focus {
+  background-color: #ffe27b;
+}
+
+/* :root {
+  --form-control-disabled: #959495;
+} */
